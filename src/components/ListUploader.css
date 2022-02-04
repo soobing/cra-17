@@ -1,0 +1,56 @@
+.list-uploader__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+.list-uploader__button {
+  width: 300px;
+  height: 30px;
+  margin: auto;
+  cursor: pointer;
+}
+.list-uploader__cards {
+  margin-top: 20px;
+}
+.list-uploader__card {
+  width: 300px;
+  height: 100px;
+  background: greenyellow;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.list-uploader__thumbnail {
+  width: 100px;
+  height: 100px;
+}
+.list-uploader__thumbnail img {
+  width: 100%;
+}
+.list-uploader__contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.list-uploader__contents label {
+  font-size: 20px;
+}
+.list-uploader__contents p {
+  font-size: 16px;
+  color: gray;
+}
+
+.list-uploader__delete {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
